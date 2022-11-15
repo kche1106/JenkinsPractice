@@ -1,1 +1,1 @@
-Jenkins 실습
+Jenkins 실습하기
