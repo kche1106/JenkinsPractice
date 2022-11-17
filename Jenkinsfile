@@ -4,7 +4,7 @@ node {
         git 'https://github.com/kche1106/JenkinsPractice.git'
     }
     stage('Build image') {
-        app = docker.build("pjbear/prbasedtest")
+        app = docker.build("chaeyes/prbasedtest")
     }
     stage('Test image') {
         app.inside {
