@@ -2,6 +2,7 @@ node {
 def app
 stage('Clone repository') {
 git 'https://github.com/kche1106/JenkinsPractice.git'
+branch : main
 }
 stage('Build image') {
 app = docker.build("kimchaeeun/prbasedtest")
