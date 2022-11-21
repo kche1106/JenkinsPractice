@@ -1,4 +1,4 @@
-node {
+node {  //scripted pipeline syntax
     def app
     stage('Clone repository') {
         git 'https://github.com/kche1106/JenkinsPractice.git'
